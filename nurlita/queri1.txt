@@ -1,0 +1,10 @@
+1. SELECT * FROM transactions;
+2. SELECT * FROM 'transaction' WHERE jmlh_obat >30000;
+3. SELECT nama_supplier, alamat FROM supplier;
+4. SELECT * FROM supplier WHERE name = "Kimia Farma";
+5. SELECT name, address FROM 'customer';
+6. SELECT name, address FROM customer WHERE address LIKE "%Tangerang%";
+7. SELECT name, price FROM medicine WHERE price >= 30000;
+8. SELECT * FROM WHERE transactions tgl_transaksi > "2021-08-03";
+9. SELECT * FROM CUSTOMER WHERE name = "Dian";
+10. SELECT id_detailtr FROM detail_transaksi WHERE id_obat = 3;
